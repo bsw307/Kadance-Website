@@ -2,8 +2,8 @@
     "name": "kadance-website",
     "version": "1.0.0",
     "scripts": {
-      "build": "npx tailwindcss -i ./styles/input.css -o ./public/styles.css --minify"
-    },
+        "build": "echo 'BUILD START' && ls -la && cat styles/input.css && npx tailwindcss -i ./styles/input.css -o ./public/styles.css --minify"
+        },
     "devDependencies": {
       "tailwindcss": "^3.4.1"
     }
